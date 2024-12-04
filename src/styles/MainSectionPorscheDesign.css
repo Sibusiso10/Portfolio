@@ -1,0 +1,172 @@
+.MainSection {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 30px;
+  padding: 0;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+.imgContainer img {
+  margin: 10px 7px;
+  object-fit: contain;
+}
+.linkTheMainSite {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.linkTheMainSite p,
+.linkToUFOMainSite p {
+  font-size: 24px;
+  font-family: "JetBrains Mono";
+}
+.linkTheMainSite a,
+.linkToUFOMainSite a {
+  background-color: black;
+  border-radius: 10px;
+  color: #0085ff;
+  font-size: 24px;
+  font-family: "JetBrains Mono";
+  text-decoration: none;
+  margin: auto 20px;
+  padding: 3px 20px;
+}
+
+.imgContainer2 {
+  display: flex;
+}
+.imgContainer2 img {
+  object-fit: contain;
+  margin: 20px 30px;
+  margin: auto;
+}
+.linkToUFOMainSite {
+  display: flex;
+  justify-content: right;
+}
+@media only screen and (max-width: 1360px) {
+  .imgContainer .img1 {
+    width: 400px;
+  }
+  .imgContainer .img2 {
+    width: 300px;
+  }
+  .imgContainer .img3 {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .linkTheMainSite p,
+  .linkToUFOMainSite p {
+    font-size: 20px;
+  }
+  .linkTheMainSite a,
+  .linkToUFOMainSite a {
+    font-size: 20px;
+  }
+  .imgContainer .img1 {
+    width: 300px;
+  }
+  .imgContainer .img2 {
+    width: 200px;
+  }
+  .imgContainer .img3 {
+    width: 200px;
+  }
+  .imgContainer2 .img1 {
+    width: 300px;
+  }
+  .imgContainer2 .img2 {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .linkTheMainSite p,
+  .linkToUFOMainSite p {
+    font-size: 16px;
+  }
+  .linkTheMainSite a,
+  .linkToUFOMainSite a {
+    font-size: 16px;
+  }
+  .imgContainer .img1 {
+    width: 300px;
+  }
+  .imgContainer .img2 {
+    width: 200px;
+  }
+  .imgContainer .img3 {
+    display: none;
+  }
+  .imgContainer2 .img1 {
+    width: 300px;
+  }
+  .imgContainer2 .img2 {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .imgContainer2 {
+    flex-direction: column;
+  }
+  .imgContainer2 img {
+    margin: 10px auto;
+  }
+  .linkToUFOMainSite {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .imgContainer .img2 {
+    display: none;
+  }
+  .imgContainer2 img {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .imgContainer,
+  .imgContainer2 {
+    margin: 0;
+    padding: 0;
+  }
+  .imgContainer .img1 {
+    height: fit-content;
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 0;
+  }
+  .imgContainer .img2 {
+    display: none;
+  }
+  .imgContainer2 img {
+    margin: 10px auto;
+    padding: 0;
+  }
+  .linkTheMainSite p,
+  .linkToUFOMainSite p {
+    font-size: 13px;
+  }
+  .linkTheMainSite a,
+  .linkToUFOMainSite a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .imgContainer .img1 {
+    height: fit-content;
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 0;
+    width: 240px;
+  }
+  .imgContainer2 .img1,
+  .imgContainer2 .img2 {
+    margin: 10px auto;
+    padding: 0;
+    width: 240px;
+  }
+}

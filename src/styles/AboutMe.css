@@ -1,0 +1,141 @@
+/* Hide scrollbar for Chrome,
+Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Ensure no overflow on the parent container */
+.no-overflow {
+  overflow: hidden;
+}
+.aboutMeContainer {
+  margin-top: 50px;
+  overflow-x: hidden;
+  width: 1440px;
+}
+.imageAndTittle {
+  display: flex;
+}
+.myImage {
+  text-align: center;
+  width: 50%;
+}
+.myImage img {
+  object-fit: contain;
+  height: 550px;
+  width: 550px;
+}
+.myImage img:hover {
+  filter: drop-shadow(0 0 #1565a7);
+}
+.aboutTitte {
+  display: flex;
+  text-align: center;
+  height: 550px;
+  width: 50%;
+}
+.aboutTitte h2 {
+  color: white;
+  font-size: 64px;
+  font-weight: 200;
+  text-decoration: underline;
+  margin: auto;
+}
+.aboutTitte h2 {
+  filter: drop-shadow(2px 10px rgb(4, 4, 66));
+}
+
+.aboutMeContent {
+  display: flex;
+  text-align: center;
+}
+.aboutMeContent p {
+  color: white;
+  margin: auto;
+  font-size: 20px;
+  line-height: 2.8;
+  width: 850px;
+}
+
+@media only screen and (max-width: 900px) {
+  .imageAndTittle {
+    margin: 30px 0;
+  }
+  .myImage img {
+    height: 350px;
+    width: 350px;
+  }
+  .aboutTitte {
+    height: 350px;
+  }
+  .aboutMeContent {
+    display: flex;
+    text-align: center;
+  }
+  .aboutMeContent p {
+    color: white;
+    margin: auto;
+    font-size: 14px;
+    line-height: 2.8;
+    width: 630px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .myImage img {
+    height: 250px;
+    width: 250px;
+  }
+  .aboutTitte {
+    height: 250px;
+  }
+  .aboutTitte h2 {
+    font-size: 44px;
+  }
+  .aboutMeContent p {
+    color: white;
+    margin: auto;
+    font-size: 17px;
+    line-height: 2.8;
+    width: 430px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .myImage img {
+    height: 200px;
+    width: 200px;
+  }
+  .aboutTitte {
+    height: 200px;
+  }
+  .aboutTitte h2 {
+    font-size: 24px;
+  }
+  .aboutMeContent p {
+    color: white;
+    margin: auto;
+    font-size: 13px;
+    line-height: 2.8;
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .imageAndTittle {
+    flex-direction: column;
+  }
+  .myImage {
+    width: 100%;
+  }
+
+  .myImage img {
+    height: 210px;
+    width: 210px;
+  }
+  .aboutTitte {
+    height: 180px;
+    width: 100%;
+  }
+}

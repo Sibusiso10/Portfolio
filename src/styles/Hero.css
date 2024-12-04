@@ -1,0 +1,280 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-size: 77px;
+  font-weight: 400;
+  font-family: "Philosopher";
+  text-decoration: underline;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.menuIcon {
+  display: none;
+}
+.heroBackGround {
+  background-image: -webkit-linear-gradient(#070707 20%, #272727);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.navBar nav ul {
+  display: flex;
+  margin: auto auto;
+  padding: 40px 5px 15px 5px;
+  width: 100%;
+}
+.navBar nav ul li {
+  display: block;
+  list-style-type: none;
+  margin: 0 60px;
+}
+.navBar nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Inria Serif";
+  text-decoration: none;
+}
+.navBar nav ul li a:hover {
+  color: rgb(255, 0, 0);
+  font-weight: 700;
+}
+
+.heroContent {
+  margin: 160px 0 0 0;
+  width: 1440px;
+}
+.heroContent h1 {
+  color: white;
+  font-size: 77px;
+  font-weight: 400;
+  font-family: "Philosopher";
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  width: 1440;
+}
+.container .streetlights {
+  margin: 70px 0 -15px 0;
+  width: 50%;
+}
+.container .streetlights img:hover {
+  filter: drop-shadow(0 0 #e75813);
+}
+.container .content {
+  display: block;
+  justify-content: center;
+  margin: auto 0;
+  width: 50%;
+}
+.content .quickPeakBox h5 {
+  color: #ffffff;
+  font-size: 2.5em;
+  text-decoration: underline;
+  margin: 0;
+}
+.content .skillList {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.content .skillList li {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content .skillList .makeRed {
+  color: red;
+}
+/* Responsive*/
+
+@media only screen and (max-width: 1400px) {
+  .heroContent {
+    margin: 100px 0 0 0;
+    width: 1200px;
+  }
+  .heroContent h1 {
+    font-size: 60px;
+  }
+  .container .content p {
+    font-size: 24px;
+    width: 340px;
+  }
+  .container .streetlights img {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .container .streetlights img {
+    width: 530px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container .content {
+    display: none;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .navBar {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menuIcon {
+    display: block;
+    margin: 0;
+    padding: 0 0 50px 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .theMenuIcon {
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    width: 100%;
+    z-index: 100;
+  }
+  .theMenuIcon img {
+    margin: 2em 2em 0 0;
+    width: 35px;
+  }
+
+  .theMenulist {
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+  }
+  .theOuterBackground {
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+    margin: 10px 5px;
+    width: 315px;
+  }
+  .closeIcon {
+    text-align: right;
+  }
+  .closeIcon img {
+    margin: 13px 11px;
+    height: 31px;
+    width: 40px;
+  }
+  .theOuterBackground ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .theOuterBackground ul li {
+    list-style-type: none;
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .theOuterBackground ul li a {
+    color: #070707;
+    background-color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px auto;
+    padding: 7.5px 0;
+    text-decoration: none;
+  }
+  .theOuterBackground ul li a:hover {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  .heroContent h1 {
+    font-size: 48px;
+    margin-top: 100px;
+  }
+  .container {
+    display: flex;
+    background-image: url(../assets/Hero/streetlights.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 560px;
+    justify-content: center;
+    height: 400px;
+    width: 1440;
+  }
+  .container .content p {
+    margin-left: 0px;
+    text-align: center;
+    font-weight: 100;
+    width: 400px;
+  }
+  .content {
+    margin-left: 0px;
+  }
+  .container .streetlights {
+    display: none;
+  }
+  .container .streetlights img {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .theMenuIcon img {
+    margin: 2em 2em 0 0;
+    width: 25px;
+  }
+  .heroContent h1 {
+    font-size: 26px;
+    margin-top: 0px;
+  }
+  .container .content {
+    width: 290px;
+  }
+  .container .content p {
+    font-size: 18px;
+    text-align: center;
+    width: 235px;
+  }
+  .container {
+    background-size: 570px;
+    height: 370px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .theMenuIcon img {
+    margin: 2em 2em 0 0;
+    width: 17px;
+  }
+  .heroContent h1 {
+    font-size: 26px;
+    margin-top: 0px;
+  }
+  .container .content {
+    width: 290px;
+  }
+  .container .content p {
+    font-size: 18px;
+    text-align: center;
+    width: 235px;
+  }
+  .container {
+    background-size: 570px;
+    height: 370px;
+  }
+}

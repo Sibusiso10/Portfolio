@@ -1,0 +1,48 @@
+* {
+  color: wheat;
+}
+.backGround {
+  background-image: -webkit-linear-gradient(#2b343a, #0c0e10);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.myWork {
+  width: 1440px;
+}
+.navbar {
+  background-color: rgb(62, 73, 73);
+  display: flex;
+  justify-content: center;
+  margin-top: 43px;
+}
+.theTittle {
+  margin-top: 70px;
+  text-align: right;
+}
+
+.theTittle h1 {
+  font-size: 60px;
+  font-family: "Philosopher";
+  font-weight: 400;
+  margin-right: 30px;
+  padding: 0;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 1439px) {
+  .myWork {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .navbar {
+    margin-top: 0px;
+    text-align: right;
+  }
+  .theTittle {
+    margin-top: 100px;
+  }
+  .theTittle h1 {
+    font-size: 40px;
+  }
+}

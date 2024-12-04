@@ -1,0 +1,145 @@
+.skillSet {
+  margin-top: 160px;
+  width: 1440px;
+}
+.containerOfSkillSet {
+  display: flex;
+  width: 100%;
+}
+.tittleSkillSet {
+  text-align: center;
+  width: 50%;
+}
+
+.skillSetTittle h2 {
+  color: red;
+  font-size: 64px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin: 0;
+}
+.skillSetIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.rectContainer {
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.rectContainer img {
+  margin: auto;
+}
+.skillSetList {
+  text-align: center;
+  padding: 0;
+  width: 50%;
+}
+.box {
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.box p {
+  color: white;
+  font-size: 20px;
+  font-family: "Inria Serif";
+  font-weight: 300;
+}
+.ToolIcons {
+  text-align: center;
+  margin: 140px 0 100px 0;
+}
+.ToolIcons ul {
+  margin: 0;
+  padding: 0;
+}
+.ToolIcons ul img {
+  margin: 0 80px;
+  height: 55px;
+  width: 55px;
+}
+.ToolIcons ul img:hover {
+  filter: drop-shadow(5px 5px blue);
+}
+@media only screen and (max-width: 1500px) {
+  .skillSetList ul {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .ToolIcons ul img {
+    margin: 0 60px;
+    height: 45px;
+    width: 45px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .ToolIcons ul img {
+    margin: 0 50px;
+    height: 40px;
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .ToolIcons ul img {
+    margin: 0 35px;
+    height: 35px;
+    width: 35px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .containerOfSkillSet {
+    display: block;
+    width: 100%;
+  }
+  .tittleSkillSet {
+    text-align: left;
+    width: 100%;
+  }
+  .skillSetList {
+    display: flex;
+    justify-content: center;
+  }
+  .skillSetList ul {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+  }
+
+  .skillSetIcons {
+    display: none;
+  }
+  .skillSetTittle h2 {
+    font-size: 48px;
+    margin: 0 0 30px 30px;
+  }
+  .skillSetList {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  .ToolIcons ul img {
+    margin: 0 35px;
+    height: 35px;
+    width: 35px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ToolIcons ul img {
+    margin: 0 20px;
+    height: 25px;
+    width: 25px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .ToolIcons ul img {
+    margin: 0 13px;
+    height: 25px;
+    width: 25px;
+  }
+}
