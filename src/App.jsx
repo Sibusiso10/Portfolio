@@ -11,14 +11,12 @@ const App = () => {
   const [showModel, setShowModel] = useState(true);
   return (
     <>
-      <AnimatePresence mode="wait">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/mywork" element={<MyWork />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </AnimatePresence>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/mywork" element={<MyWork />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 };

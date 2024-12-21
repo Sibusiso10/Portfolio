@@ -29,7 +29,6 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text }) => {
     },
     animate: {
       opacity: 1,
-      color: "white",
       y: 0,
     },
   };

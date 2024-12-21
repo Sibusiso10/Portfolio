@@ -48,7 +48,7 @@ const GoodFood = () => {
       </div>
       <div className="linkTheMainSite">
         <p>Check Out the finished Design </p>
-        <a href="https://GoodFoodlicationdem.netlify.app/">HERE</a>
+        <a href="https://goodfood-demo.netlify.app/">HERE</a>
       </div>
     </motion.div>
   );

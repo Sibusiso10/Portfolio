@@ -46,7 +46,7 @@ function MainSectionPorscheDesign() {
         </div>
         <div className="linkTheMainSite">
           <p>Check Out the finished Design </p>
-          <a href="https://g-brain.co.za/">HERE</a>
+          <a href="https://porschedemo.netlify.app/">HERE</a>
         </div>
       </div>
     </>
